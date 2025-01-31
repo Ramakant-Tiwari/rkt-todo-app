@@ -15,7 +15,7 @@ import CompletedTasks from "./pages/CompletedTasks";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/v1/" element={<TodoList />}>
+      <Route path="/" element={<TodoList />}>
         <Route index element={<AllTasks />} />
         <Route path="active" element={<ActiveTasks />} />
         <Route path="completed" element={<CompletedTasks />} />
